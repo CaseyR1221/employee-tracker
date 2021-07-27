@@ -10,17 +10,25 @@ menu = () => {
   console.log("\n");
   // these..are the questions
   inquirer
-    .prompt(menuQs)
+    .prompt(menuQuestions)
     .then((answers) => {
       if (answers.menu == "View All Departments") {
         viewDepartments();
       } else if (answers.menu == "View All Roles") {
         viewRoles();
-        menu();
       } else if (answers.menu == "View All Employees") {
-
+        viewEmployees();
       } else if (answers.menu == "Add a Department") {
-
+        inquirer
+          .prompt({
+            type: "input",
+            message: "What is the name of the department you would like to add?",
+            name: "dept",
+            default: "1001",
+          })
+          .then((answer) => {
+            addDepartment(answer.dept);
+          });
       } else if (answers.menu == "Add a Role") {
 
       } else if (answers.menu == "Add an Employee") {
@@ -68,4 +76,15 @@ async function viewRoles() {
   console.log("\n");
   console.table(roles);
   menu();
+}
+
+async function viewEmployees() {
+  let employees = await db.findAllEmployees();
+  console.log("\n");
+  console.table(employees);
+  menu();
+}
+
+async function addDepartment(newDept) {
+  await db.addNewDepartment(newDept);
 }
