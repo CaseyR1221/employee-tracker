@@ -9,23 +9,23 @@ VALUES ("Software Developer", 80000, 1001),
        ("Salesperson", 60000, 1002),
        ("Accountant", 75000, 1003),
        ("Customer Liason", 50000, 1004),
-       ("Engineering Manager", 90000, 1001),
-       ("Sales Manager", 90000, 1002),
-       ("Finance Manager", 90000, 1003),
+       ("Engineering Manager", 120000, 1001),
+       ("Sales Manager", 100000, 1002),
+       ("Finance Manager", 110000, 1003),
        ("Customer Services Manager", 90000, 1004);
 
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES 
-("Michael", "Scott", 8, NULL),
-("Jim", "Bean", 7, NULL),
-("Taylor", "Swift", 6, NULL),
-("John", "Michaels", 5, NULL),
-("Michael", "Douglas", 3, 2),
-("Tina", "Turner", 3, 2),
-("Jerry", "McGuire", 1, 4),
-("Rick", "Sanchez", 1, 4),
-("Anthony", "Stone", 4, 1),
-("Jill", "Manders", 4, 1),
-("Scott", "McPherson", 2, 3),
-("Randy", "Randalson", 2, 3);
+("Casey", "Rowlands", 8, NULL),
+("Mike", "Miller", 7, NULL),
+("Grace", "Reichard", 6, NULL),
+("Felix", "Ramos", 5, NULL),
+("Tom", "Hartman", 3, 2),
+("Madeline", "Malek", 3, 2),
+("Jessie", "Snodgrass", 1, 4),
+("Meghan", "Artero", 1, 4),
+("Amanda", "Angeline", 4, 1),
+("Corey", "Belletiere", 4, 1),
+("Brent", "Maron", 2, 3),
+("Andrew", "Tyson", 2, 3);
