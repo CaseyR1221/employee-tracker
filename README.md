@@ -12,11 +12,17 @@
 
   ## Installation
   ###### [Back to Table of Contents](#Table-of-Contents)
-  npm i
+  
+  ```
+  npm i inquirer mysql2
+  ```
 
   ## Usage
   ###### [Back to Table of Contents](#Table-of-Contents)
   
+![75491100-C0BA-4A17-A2B1-7BACEF7B2855_1_105_c](https://user-images.githubusercontent.com/44381344/129991064-a3f99f06-3b38-4454-b2f8-a4afa502c91d.jpeg)
+
+  [Walkthrough](https://youtu.be/OIX3NhLKwAc)
 
    
  ## License
