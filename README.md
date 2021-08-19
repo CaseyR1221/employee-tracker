@@ -20,7 +20,9 @@
   ## Usage
   ###### [Back to Table of Contents](#Table-of-Contents)
   
-  ![75491100-C0BA-4A17-A2B1-7BACEF7B2855_1_105_c](https://user-images.githubusercontent.com/44381344/129988626-c0ef6858-f591-4663-a88d-f0111268ae42.jpeg)
+  ![Employee-tracker-screenshot](https://user-images.githubusercontent.com/44381344/129990943-2e98bb7b-917e-453d-bb4e-3d69b31319d5.jpeg)
+
+  [Walkthrough](https://youtu.be/OIX3NhLKwAc)
 
    
  ## License
