@@ -24,7 +24,7 @@ menu = () => {
             type: "input",
             message: "What is the name of the department you would like to add?",
             name: "dept",
-            default: "1001",
+            default: "Dept. Name",
           })
           .then((answer) => {
             addDepartment(answer.dept);
