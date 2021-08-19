@@ -20,7 +20,7 @@
   ## Usage
   ###### [Back to Table of Contents](#Table-of-Contents)
   
-  ![Employee-tracker-screenshot](https://user-images.githubusercontent.com/44381344/129990943-2e98bb7b-917e-453d-bb4e-3d69b31319d5.jpeg)
+![75491100-C0BA-4A17-A2B1-7BACEF7B2855_1_105_c](https://user-images.githubusercontent.com/44381344/129991064-a3f99f06-3b38-4454-b2f8-a4afa502c91d.jpeg)
 
   [Walkthrough](https://youtu.be/OIX3NhLKwAc)
 
