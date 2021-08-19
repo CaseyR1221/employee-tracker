@@ -71,7 +71,7 @@ menu = () => {
             },
             {
               type: "input",
-              message: "What is the employee's role id?",
+              message: "What is the id of the employee's role?",
               name: "role",
             },
             {
